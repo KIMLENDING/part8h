@@ -10,7 +10,7 @@ public class ExTest extends JFrame {
         conp.setLayout(null);
 
         JLabel la = new JLabel("Hello, Press Buttons!");
-        la.setLocation(130, 50);
+        la.setLocation(100, 50);
         la.setSize(200, 20);
         conp.add(la);
 
