@@ -19,8 +19,11 @@ public class TextAreaEx extends JFrame {
         tf.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
                 JTextField t = (JTextField)e.getSource();
-                ta.append(t.getText() + "\n");
-                t.setText("");
+                String a = t.getText();
+                if(!a.equals("")){
+                    ta.append(a + "\n");
+                    t.setText("");
+                }
             }
         });
         setSize(300,250);
