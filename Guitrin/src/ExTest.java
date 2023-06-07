@@ -26,7 +26,7 @@ public class ExTest extends JFrame {
         setVisible(true);
     }
     public static void main(String[] args) {
-        ExTest  et = new ExTest(); // MyFrame 객체 생성
+        new ExTest(); // MyFrame 객체 생성
     }
 }
 

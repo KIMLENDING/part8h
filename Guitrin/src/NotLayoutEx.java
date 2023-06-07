@@ -5,7 +5,7 @@ public class NotLayoutEx extends JFrame {
     public NotLayoutEx(){
         setTitle("배치 관리자 없는 컨테이너");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+        
         Container c = getContentPane();
         c.setBackground(Color.GREEN);
         c.setLayout(null);

@@ -19,6 +19,6 @@ public class GridLayoutEx extends JFrame {
         setVisible(true);
     }
     public static void main(String[] args) {
-        GridLayoutEx gf = new GridLayoutEx(); // MyFrame 객체 생성
+        new GridLayoutEx(); // MyFrame 객체 생성
     }
 }
